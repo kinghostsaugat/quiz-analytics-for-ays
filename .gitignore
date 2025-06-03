@@ -1,0 +1,42 @@
+# ------------------------
+# WordPress & Plugin Files
+# ------------------------
+*.log
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+__MACOSX/
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+
+# ------------------------
+# Node / NPM / Webpack
+# ------------------------
+node_modules/
+package-lock.json
+npm-debug.log
+yarn.lock
+webpack.config.js
+
+# Webpack build output (customize if you use a different output folder)
+assets/
+
+# Source maps (optional, ignore in production)
+*.map
+
+# ------------------------
+# IDEs & Editor Config
+# ------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------
+# Environment files
+# ------------------------
+.env
+.env.*
