@@ -1,0 +1,21 @@
+{
+  "name": "quiz-analytics-for-principals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start --webpack-src-dir=assets --output-path=public",
+    "build": "wp-scripts build --webpack-src-dir=assets --output-path=public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chart.js": "^4.4.9"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.17.0",
+    "webpack-remove-empty-scripts": "^1.1.1"
+  }
+}

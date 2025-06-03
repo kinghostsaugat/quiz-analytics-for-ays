@@ -1,0 +1,114 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./assets/scss/quiz-analytics.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+/* Define Sass variables */
+.quiz-principal-dashboard-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.quiz-principal-dashboard-wrapper h1 {
+  color: #0073aa;
+  margin-bottom: 20px;
+}
+
+.dashboard-filters {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.dashboard-filters label {
+  font-weight: bold;
+  color: rgb(0, 80.5, 119);
+}
+.dashboard-filters select,
+.dashboard-filters input[type=date] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.dashboard-filters button {
+  background-color: #0073aa;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.dashboard-filters button:hover {
+  background-color: #005a87;
+}
+
+.dashboard-overview {
+  background: #e7f7ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-left: 5px solid #0073aa;
+}
+.dashboard-overview h2 {
+  margin-top: 0;
+  color: #0073aa;
+}
+.dashboard-overview p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.dashboard-charts {
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-charts canvas {
+  max-width: 100%;
+  height: 100%;
+}
+
+.dashboard-tables {
+  margin-bottom: 30px;
+}
+.dashboard-tables h2 {
+  color: rgb(0, 80.5, 119);
+  margin-bottom: 15px;
+}
+.dashboard-tables #student-performance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.dashboard-tables #student-performance-table th,
+.dashboard-tables #student-performance-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+.dashboard-tables #student-performance-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+.dashboard-tables #student-performance-table tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+.dashboard-tables #student-performance-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/*# sourceMappingURL=quiz-analytics.css.map*/
